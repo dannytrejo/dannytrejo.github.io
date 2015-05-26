@@ -1,0 +1,143 @@
+
+body{
+	text-align:center;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+nav a {
+	background-color:#229BB2;
+	color:#000000;
+	text-decoration: none;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align: center;
+	display: block;
+	float:left;
+	width:25%;
+	padding:1em 0;
+}
+
+h1{
+	font-family:lobster,cursive;
+	font-size: 4em;
+	text-align: center;
+	padding-top: .5em;
+}
+
+h2{
+	font-family:lobster, cursive;
+	text-decoration: none;
+	font-size:2em;
+	text-align:center;
+	font-style:italic;
+	padding-top:.25em;
+	padding-bottom: .5em;
+}
+
+p{
+	font-size:1em;
+	padding:1em;
+	text-align:left;
+}
+
+.fourimages{
+	padding:4em;
+}
+
+.fourimages img{
+	margin: 2.5%;
+	width: 45%;
+	float: left;
+}
+
+#mobile{
+	display:none;
+	font-size: 2em;
+}
+
+#wrapper{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#slogan{
+	font-family:lobster,cursive;
+	font-size:2em;
+	text-align:center;
+	font-style:italic;
+	padding-top:.25em;
+	padding-bottom: .5em;
+}
+
+.treepic{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:1em;
+}
+
+#contactus{
+	font-family: Helvetica: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.clearfix:after{
+	display:block;
+	content: " ";
+	clear: both;
+	visibility:hidden;
+	height:0;
+	font-size:0;
+}
+
+footer{
+	text-align: right;
+	padding: 1em;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+	section a{
+		width:50%;
+	}
+}
+@media only screen and (max-width: 450px){
+		body{
+		font-size:10px;
+	}
+	#mobile{
+		display: block;
+		width: auto;
+		float:none;
+	}
+	#innernav{
+		display: none;
+	}
+	p{
+		display:none;
+	}
+	.fourimages img{
+		float:none;
+		width: 90%;
+	}
+	#contactus{
+		display: block
+	}
+	.treepic{
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
+
+
