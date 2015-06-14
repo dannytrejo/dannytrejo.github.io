@@ -6,12 +6,13 @@ body{
 }
 
 nav a {
-	background-color:#229BB2;
-	color:#000000;
+	background-color:#16a085;
+	color:#fff;
 	text-decoration: none;
-	font-size:1.2em;
+	font-size:1.6em;
 	font-weight:bold;
 	text-align: center;
+	text-shadow: 2px 1px #34495e;
 	display: block;
 	float:left;
 	width:25%;
@@ -20,29 +21,34 @@ nav a {
 
 h1{
 	font-family:lobster,cursive;
-	font-size: 4em;
+	color:#e67e22;
+	font-size: 5em;
 	text-align: center;
-	padding-top: .5em;
+	text-shadow: 2px 1px #34495e;
+/*	padding-top: .5em;*/
 }
 
 h2{
 	font-family:lobster, cursive;
+	color: #e67e22;
 	text-decoration: none;
+	text-shadow: 2px 1px #34495e;
 	font-size:2em;
 	text-align:center;
 	font-style:italic;
-	padding-top:.25em;
+	padding-top:.5em;
 	padding-bottom: .5em;
 }
 
 p{
 	font-size:1em;
-	padding:1em;
+	padding-left:5.5em;
 	text-align:left;
+	width:80%;
 }
 
 .fourimages{
-	padding:4em;
+	padding:1em;
 }
 
 .fourimages img{
@@ -51,9 +57,14 @@ p{
 	float: left;
 }
 
+.fourmobile img{
+	display:none;
+}
+
 #mobile{
 	display:none;
-	font-size: 2em;
+	font-size: 5em;
+	padding: .25em;
 }
 
 #wrapper{
@@ -62,20 +73,13 @@ p{
 	margin-right:auto;
 }
 
-#slogan{
-	font-family:lobster,cursive;
-	font-size:2em;
-	text-align:center;
-	font-style:italic;
-	padding-top:.25em;
-	padding-bottom: .5em;
-}
-
 .treepic{
 	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	padding:1em;
+	width:100%;
+	height: auto;
+/*	margin-left: auto;
+	margin-right: auto;*/
+/*	padding:1em;*/
 }
 
 #contactus{
@@ -106,9 +110,13 @@ footer{
 		width:50%;
 	}
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 550px){
 		body{
 		font-size:10px;
+	}
+
+	h2{
+		font-size:3em;
 	}
 	#mobile{
 		display: block;
@@ -122,15 +130,22 @@ footer{
 		display:none;
 	}
 	.fourimages img{
-		float:none;
-		width: 90%;
+		display:none;
+/*		float:none;
+		width: 50%;*/
+	}
+	.fourmobile img{
+		display: inline-block;
+		width: 40%;
+		margin: 2.5%;
+		padding: 1em;
 	}
 	#contactus{
 		display: block
 	}
-	.treepic{
+	/*.treepic{
 		width: 90%;
-	}
+	}*/
 }
 
 
